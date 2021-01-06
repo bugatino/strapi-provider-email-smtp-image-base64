@@ -1,0 +1,44 @@
+{
+  "name": "strapi-provider-email-smtp-image-base64",
+  "version": "0.1.0",
+  "description": "Nodemailer email provider via SMTP with support Base64 image in html content",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "email",
+    "strapi",
+    "nodemailer",
+    "imageBase64",
+    "smtp"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "nodemailer": "^4.6.7",
+    "strapi-utils": "^3.1.4",
+    "nodemailer-plugin-inline-base64": "^2.1.1"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": "Dao Manh Thang <bugatino@gmail.com> (https://github.com/bugatino)",
+  "maintainers": [
+    "Dao Manh Thang <bugatino@gmail.com> (https://github.com/bugatino)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bugatino/strapi-provider-email-smtp-image-base64.git"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.3.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
